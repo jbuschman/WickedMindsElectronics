@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="WME.ARDrone.WMEDronePlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="360" d:DesignWidth="640" MinWidth="640" MinHeight="360" Loaded="UserControl_Loaded" FontFamily="Verdana" FontSize="8" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+    <Grid MinHeight="360" MinWidth="640">
+        <Image Height="360" HorizontalAlignment="Center" Name="imageVideo" Stretch="Fill" VerticalAlignment="Center" Width="640" Source="/WMEDronePlayer;component/Images/ardrone2.jpg" />
+        <TextBox TextAlignment="Right" BorderThickness="0" Background="Transparent" Foreground="White" Height="25" HorizontalAlignment="Right" Name="txtInfo" VerticalAlignment="Bottom" Width="190" Opacity="1" IsReadOnly="True" />
+    </Grid>
+</UserControl>
